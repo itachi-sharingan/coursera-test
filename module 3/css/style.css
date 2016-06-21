@@ -1,0 +1,41 @@
+/*header starts */
+#navigation{
+	background-color: grey;
+	border-radius: 0;
+	border: 0;
+}
+
+p{
+	color: white;
+}
+#collapsable-nav{
+	background-color: white;
+}
+
+#nav-list a{
+	color: black;
+	text-align: center;
+
+}
+#nav-list{
+	border-bottom: 1px solid white;
+	background-color: white;
+}
+hr{
+	color: black;
+}
+/*header ends*/
+
+ /*main body starts*/
+#main-content{
+	background-color: grey;
+	height: 1000px;
+}
+
+
+ /*main body ends*/
+ @media(min-width: 768px){
+ 	#collapsable-nav{
+ 		display: none;
+ 	}
+ }
